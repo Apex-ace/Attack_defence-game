@@ -24,7 +24,7 @@ def game():
                     action = input("choose to attack or defence:").lower()
             if action == "attack":
                 input("Press ENTER to attack:")
-                damage = random.randint(10, 20)  # Random between 10 to 20
+                damage = random.randint(20, 30)  # Random between 10 to 20
                 print("Genrating attack........💥💥")
                 time.sleep(2)
                 if Player2_defending == True:

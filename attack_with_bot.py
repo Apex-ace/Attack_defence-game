@@ -41,7 +41,7 @@ def game():
             print(f"Player 2 chooses to {action}")
 
             if action == 'attack':
-                damage = random.randint(10, 20)
+                damage = random.randint(20, 30)
                 print("Generating attack...💥")
                 time.sleep(1)
 
